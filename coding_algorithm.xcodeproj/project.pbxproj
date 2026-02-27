@@ -23,9 +23,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F39EE2F32F0E52B200C667F5 /* Paiza */ = {
+		F38E0F902F520556002734A9 /* days */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Paiza;
+			path = days;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -44,7 +44,7 @@
 		F39EE2E82F0E52B200C667F5 = {
 			isa = PBXGroup;
 			children = (
-				F39EE2F32F0E52B200C667F5 /* Paiza */,
+				F38E0F902F520556002734A9 /* days */,
 				F39EE2F22F0E52B200C667F5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +73,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F39EE2F32F0E52B200C667F5 /* Paiza */,
+				F38E0F902F520556002734A9 /* days */,
 			);
 			name = Paiza;
 			packageProductDependencies = (
