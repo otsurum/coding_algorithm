@@ -1,21 +1,11 @@
 import Foundation
 
-// 競プロで安全な高速入力（改行/空白の分割に強い）
-final class FastScanner {
-    private var data:[UInt8] = Array(FileHandle.standardInput.readDataToEndOfFile()) + [0]
-    private var idx: Int = 0
+func readInt() -> Int {
+    return Int(String(readLine()!))!
+}
 
-    func readInt() -> Int {
-        while data[idx] == 10 || data[idx] == 13 || data[idx] == 32 { idx += 1 } // \n \r space
-        var sign = 1
-        if data[idx] == 45 { sign = -1; idx += 1 } // '-'
-        var num = 0
-        while data[idx] >= 48 {
-            num = num * 10 + Int(data[idx] - 48)
-            idx += 1
-        }
-        return num * sign
-    }
+func readInts() -> [Int] {
+    return readLine()!.split(separator: " ").map { Int(String($0))! }
 }
 
 @inline(__always)
@@ -60,10 +50,9 @@ func makeRatio(_ a: Int, _ b: Int) -> Ratio {
     }
 }
 
-let sc = FastScanner()
-let N = sc.readInt()
-var array = [Int](repeating: 0, count: N)
-for i in 0..<N { array[i] = sc.readInt() }
+
+let N = readInt()
+let array = readInts()
 
 if N < 2 {
     print(0)
