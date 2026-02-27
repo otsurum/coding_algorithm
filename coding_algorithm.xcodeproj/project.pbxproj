@@ -97,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F39EE2EC2F0E52B200C667F5 /* Build configuration list for PBXProject "Paiza" */;
+			buildConfigurationList = F39EE2EC2F0E52B200C667F5 /* Build configuration list for PBXProject "coding_algorithm" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -272,7 +272,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F39EE2EC2F0E52B200C667F5 /* Build configuration list for PBXProject "Paiza" */ = {
+		F39EE2EC2F0E52B200C667F5 /* Build configuration list for PBXProject "coding_algorithm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F39EE2F62F0E52B200C667F5 /* Debug */,
