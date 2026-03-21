@@ -1,2 +1,2 @@
 # coding_algorithm
-Coding　Test対策
+コーディングテスト対策
